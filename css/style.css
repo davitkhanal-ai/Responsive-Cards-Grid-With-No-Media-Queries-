@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+/* code above is basic structure */
+
+/* code below is Main structure */
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 98rem;
+    padding: 1.5rem;
+}
